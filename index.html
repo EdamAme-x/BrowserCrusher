@@ -7,8 +7,10 @@
     <script>
       let a = 1000 * Math.random()
       let b = 1000 * Math.random()
-      window.open( "/" , null , `width=` + a + `,height=` + b);
-      window.open( "/" , "_blank")
+      let c = Math.random()
+      window.open( "/?" + c + 0.01 , null , `width=` + a + `,height=` + b);
+      window.open( "/?" + c + 0.02 , "_blank")
+      window.open( "/?" + c + 0.03 , "_self")
     </script>
   </body>
 </html>
